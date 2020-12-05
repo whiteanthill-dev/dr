@@ -1,0 +1,40 @@
+        * {
+            box-sizing: border-box;
+        }
+        .box {
+            display: inline-block;
+            width: 500px;
+            height: 100px;
+            color: white;
+        }
+        #deck {
+            z-index: 9999;
+            position: absolute;
+            top: -10px;
+            left: 900px;
+        }
+        #twomobile {
+            z-index: 9999;
+            position: absolute;
+            top: -5px;
+            left: 250px;
+        }
+        .boxmobile {
+            display: absolute;
+            width: 100px;
+            height: 1000px;
+            color: white;
+        }
+        #twopad {
+            z-index: 9999;
+            position: absolute;
+            top: 10px;
+            left: 200px;
+        }
+
+        #tablet {
+            z-index: 9999;
+            position: absolute;
+            top: 10px;
+            left: 560px;
+        }

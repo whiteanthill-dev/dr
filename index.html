@@ -4,6 +4,7 @@
 <head>
     <title>Dr.Koklyan - стоматология в центре Киева</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -29,12 +30,12 @@
             background-color: rgba(0, 0, 0, 0.822);
             text-align: center;
         }
-        
+
         .blockquote-custom {
             position: relative;
             font-size: 1.1rem;
         }
-        
+
         .blockquote-custom-icon {
             width: 50px;
             height: 50px;
@@ -46,7 +47,7 @@
             top: -25px;
             left: 50px;
         }
-        
+
         body {
             background-image: url('/bg.png');
             background-size: cover;
@@ -75,15 +76,14 @@
                         <div class="col-10">
                             <nav class="site-navigation text-right" role="navigation">
                                 <div class="container">
-                                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="index.html#" class="site-menu-toggle js-menu-toggle text-white"><span
-                                                  class="icon-menu h3"></span></a></div>
+                                    <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="index.html#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
                                     <ul class="site-menu js-clone-nav d-none d-lg-block">
                                         <li class="active"><a href="index.html">Главная</a>
-                                            <li><a href="about.html">Команда</a></li>
-                                            <li><a href="services.html">Услуги</a></li>
-                                            <li><a href="sales.html">Акции</a></li>
-                                            <li><a href="contact.html">Контакты</a></li>
-                                            <li><a href="blog.html">Блог</a></li>
+                                        <li><a href="about.html">Команда</a></li>
+                                        <li><a href="services.html">Услуги</a></li>
+                                        <li><a href="sales.html">Акции</a></li>
+                                        <li><a href="contact.html">Контакты</a></li>
+                                        <li><a href="blog.html">Блог</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -93,63 +93,52 @@
             </div>
         </div>
     </div>
-    <div class="site-blocks-cover overlay" style="background-image: url(images/main.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
+    <div class="site-blocks-cover overlay mb-5" style="background-image: url(images/main.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row align-items-center">
-
                 <div class="col-md-7 text-center mx-auto">
                     <h1>Dr.Koklyan - твоя стоматология</h1>
                     <h4 class="text-white">Посмотри короткий ролик о нас</h4>
                     <p> </p>
-                    <a href="https://vimeo.com/485268801" data-fancybox class="play-btn"><span
-                              class="icon-play"></span></a>
+                    <a href="https://vimeo.com/485268801" data-fancybox class="play-btn"><span class="icon-play"></span></a>
                 </div>
             </div>
         </div>
     </div>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        
-        .box {
-            display: inline-block;
-            width: 500px;
-            height: 100px;
-            color: white;
-        }
-        
-        #two {
-            z-index: 9999;
-            position: absolute;
-            top: 25px;
-            left: 750px;
-        }
-    </style>
+
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-6 pr-md-5 text-center">
-                <div class="col box d-none .d-lg-block .d-xl-none">
-                    <img src="images/hero_2.png" id="two" class="w-50 mb-5 rounded-circle">
+                <div class="col d-none d-lg-block d-xl-block">
+                    <img src="images/hero_2.png" id="deck" class="w-35 mb-5 rounded-circle">
                 </div>
+                <div class="col d-block d-sm-none">
+                    <img src="images/hero_2.png" id="twomobile" class="w-25 mb-5 rounded-circle">
+                </div>
+                <div class="col d-none d-xs-none">
+                    <img src="images/hero_2.png" id="twopad" class="w-35 mb-5 rounded-circle">
+                </div>
+                <div class="col d-none d-md-block d-lg-none">
+                    <img src="images/hero_2.png" id="tablet" class="w-35 mb-5 rounded-circle">
+                </div>
+
+
             </div>
 
-            <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
-                <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+            <blockquote class="blockquote blockquote-custom bg-white p-5 mt-5 shadow rounded">
+                <div class="blockquote-custom-icon bg-info shadow-sm">
+                    <i class="fa fa-quote-left text-white"></i>
+                </div>
                 <h2>Добрый день!</h2>
                 <p class="text">
-                    <p>Я Руслан Коклян, основатель стоматологии "Dr.Koklyan".‌</p>
-                    <p> ‌Я горю стоматологическим делом уже более 20 лет, регулярно повышая профессиональный уровень.</p>
-                    <p>Наблюдая за работой современных стоматологий, я четко осознал, что хочу популяризировать качественный сервис, что даст возможность пациентам получать грамотное лечение.</p>
-                    <p>Поэтому я решил собрать команду специалистов, чтобы это было возможным.</p>
-                    <p>Я не любитель громки слов, наша философия говорит сама за себя.</p>
-                    <p>Любой член моей команды ответит, что главный принцип, по которому мы работаем - <br>это <b>лечить
-                    пациентов
-                    так, как мы бы лечили членов своей семьи.</b>
-                        <!-- <span class="col-md-6 col-md-offset-3">
-        <button type="button" class="btn btn-primary">Команда</button>
-        <a href="" ></a></p>
-      </span> -->
+                <p>Я Руслан Коклян, основатель стоматологии "Dr.Koklyan".‌</p>
+                <p> ‌Я горю стоматологическим делом уже более 20 лет, регулярно повышая профессиональный уровень.</p>
+                <p>Наблюдая за работой современных стоматологий, я четко осознал, что хочу популяризировать качественный сервис, что даст возможность пациентам получать грамотное лечение.</p>
+                <p>Поэтому я решил собрать команду специалистов, чтобы это было возможным.</p>
+                <p>Я не любитель громки слов, наша философия говорит сама за себя.</p>
+                <p>Любой член моей команды ответит, что главный принцип, по которому мы работаем - <br>это
+                    <b>лечить пациентов так, как мы бы лечили членов своей семьи.</b>
+
             </blockquote>
             <!-- END -->
 
@@ -229,7 +218,7 @@
                             </div>
                             <div class="text">
                                 <h4><b>Качественные
-                                    <br>рабочие материалы</b></h4>
+                                        <br>рабочие материалы</b></h4>
                                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
                             </div>
                         </div>
@@ -243,12 +232,12 @@
                             </div>
                             <div class="text">
                                 <h4><b>Все виды
-                                    <br>стоматологических услуг</b></h4>
+                                        <br>стоматологических услуг</b></h4>
                                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="site-block-feature d-flex p-4 rounded mb-4">
                             <div class="mr-3">
                                 <div class="wrap-icon">
@@ -258,7 +247,7 @@
                             <div class="text">
                                 <h4><b>Гарантия на
 
-                                    <br>стоматологические услуги</b></h4>
+                                        <br>стоматологические услуги</b></h4>
                                 <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
                             </div>
                         </div>
@@ -304,19 +293,19 @@
                 width: 1000px;
                 margin: 0 auto;
             }
-            
+
             .number {
                 font-size: 2em;
                 padding: 0 0 25px;
                 font-weight: bold;
                 opacity: 0;
             }
-            
+
             .viz {
                 opacity: 1;
                 transition: 1s;
             }
-            
+
             .clearfix:before,
             .clearfix:after {
                 content: " ";
@@ -324,7 +313,7 @@
                 display: table;
                 /* 2 */
             }
-            
+
             .clearfix:after {
                 clear: both;
             }
@@ -332,21 +321,21 @@
         <script>
             var time = 2,
                 cc = 1;
-            $(window).scroll(function() {
-                $('#counter').each(function() {
+            $(window).scroll(function () {
+                $('#counter').each(function () {
                     var
                         cPos = $(this).offset().top,
                         topWindow = $(window).scrollTop();
                     if (cPos < topWindow + 200) {
                         if (cc < 2) {
                             $(".number").addClass("viz");
-                            $('div').each(function() {
+                            $('div').each(function () {
                                 var
                                     i = 1,
                                     num = $(this).data('num'),
                                     step = 1000 * time / num,
                                     that = $(this),
-                                    int = setInterval(function() {
+                                    int = setInterval(function () {
                                         if (i <= num) {
                                             that.html(i);
                                         } else {
@@ -443,8 +432,8 @@
         <script src="js/bootstrap-datepicker.min.js"></script>
         <script src="js/aos.js"></script>
         <script src="js/main.js"></script>
-        <!-- Footer -->
     </div>
+    <!-- Footer -->
     <footer class="page-footer font-small teal pt-4 background-grey">
 
         <!-- Footer Text -->
